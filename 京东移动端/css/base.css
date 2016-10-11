@@ -1,0 +1,72 @@
+/*
+* @Author: zhengwei
+* @Date:   2016-08-29 09:25:18
+* @Last Modified by:   zhengwei
+* @Last Modified time: 2016-08-29 15:23:12
+*/
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+    -webkit-tap-highlight-color:transparent;
+}
+
+img {
+    vertical-align: middle;
+}
+input{
+	border:0;
+	outline: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.pull-left {
+    float: left !important;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: block;
+    height: 0;
+    line-height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    clear: both;
+}
+
+.width-50{
+	width: 50%;
+}
+.width-33{
+	width: 33.33%;
+}
+.border-left{
+	border-left:1px solid #ccc;
+}
+.border-right{
+	border-right:1px solid #ccc;
+}
+.border-top{
+	border-top:1px solid #ccc;
+}
+.border-bottom{
+	border-bottom:1px solid #ccc;
+}
